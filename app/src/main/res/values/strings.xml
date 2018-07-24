@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Touristic Sights</string>
+    <string name="title_activity_maps">Touristic Sights</string>
+    <string name="button_clear">clear</string>
+    <string name="button_SA">Simulated\nAnnealing</string>
+    <string name="button_GA">Genetic\nAlgorithm</string>
+    <string name="button_TA">Test\nAlgorithm</string>
+    <string name="final_distance">FINAL DISTANCE</string>
+    <string name="link"><![CDATA[<a href=\"http://kalogeropoulos.eu\">Theodore Kalogeropoulos</a>]]></string>
+
+</resources>

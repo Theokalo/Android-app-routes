@@ -1,0 +1,40 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Genetic_Algorithms">
+
+        <TextView
+            android:id="@+id/ga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="88dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="74dp"
+            android:text="Genetic Algorithms"
+            android:textAlignment="center"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textSize="24sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/ga1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In computer science and operations research, a genetic algorithm (GA) is a metaheuristic inspired by the process of natural selection that belongs to the larger class of evolutionary algorithms (EA). Genetic algorithms are commonly used to generate high-quality solutions to optimization and search problems by relying on bio-inspired operators such as mutation, crossover and selection"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textSize="18sp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/ga" />
+
+    </RelativeLayout>
+    </android.support.v4.widget.DrawerLayout>
